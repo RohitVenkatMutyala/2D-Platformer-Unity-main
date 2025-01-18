@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
     }
    
     public IEnumerator DeathCoroutine()
-    {
+    {  
         yield return new WaitForSeconds(1f);
         playerController.transform.position = playerPosition;
 
