@@ -11,6 +11,7 @@ public class ExitTrigger : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             StartCoroutine("LevelExit");
+           
         }
     }
 
