@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
 
     public ParticleSystem ImpactEffect;
     private bool wasonGround;
+      public PlaySound playSound;
 
 
    // public GameObject projectile;
@@ -48,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
 
     private void Start()
-    {
+    { playSound = GetComponent<PlaySound>();
         rb = GetComponent<Rigidbody2D>();
         footEmissions = footsteps.emission;
 
@@ -169,10 +170,12 @@ public class PlayerController : MonoBehaviour
     }
 
     private void Jump(float jumpForce)
-    {
+    {   
         rb.velocity = new Vector2(rb.velocity.x, 0); // Zero out vertical velocity
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        playSound.Play(1);
         playeranim.SetTrigger("jump");
+        
     }
 
     private bool IsGrounded()
@@ -185,8 +188,9 @@ public class PlayerController : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.tag == "killzone")
-        {
+        {   
             GameManager.instance.Death();
+           
         }
     }
     
