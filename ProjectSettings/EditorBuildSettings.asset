@@ -17,4 +17,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: 8a88ca8374f2c5a42b398918d7ea9db4
+  - enabled: 1
+    path: Assets/Scenes/start.unity
+    guid: b50b33cd5e3dc26479cdd67fa80b33cd
+  - enabled: 1
+    path: Assets/Scenes/logs.unity
+    guid: 11fdcff78af34d54a856e9153915de3e
+  - enabled: 1
+    path: Assets/Scenes/logsend.unity
+    guid: 5a2c96e61c6954b428a91e57e9cf71c5
+  - enabled: 1
+    path: Assets/Scenes/medafter.unity
+    guid: 360659afe091d9442a43bb22ab105664
+  - enabled: 1
+    path: Assets/Scenes/foodafter.unity
+    guid: 2fb968684b46ce145b7e3f61a6a5434e
   m_configObjects: {}
