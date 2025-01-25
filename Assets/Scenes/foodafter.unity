@@ -213,18 +213,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeText: {fileID: 216915966}
   narrativeSentences:
-  - '     "Welcome User"'
-  - '      " You are now in a remote village and it''s dead winter"'
-  - '       "Your wife is sick, you covered her with blankets, yet it''s not working"'
-  - '        "The winter is too much to handle"'
-  - '         "You are cold too"'
-  - '          "There is a fireplace but no logs to lit the fire"'
-  - '           "You need to go out to collect wood"'
-  - '          "But outside looks terrifyingly cold"'
-  - '          "Can you do it?"'
-  - '        "If you dont then both of you are gonna die of cold"'
-  - '       "So go out and collect the logs"'
-  - '       "Save your wife and yourself aswell"'
+  - '"You came back!!"'
+  - '"And you brought lot of food"'
+  - '"After eating you feel very satisfied"'
+  - '"Now you feel warm and comfortable"'
+  - '"Atlast everything that needs to be done is done"'
+  - '"You can happily rest now without thinking about anything"'
+  - '"Even you wife seems to be resting well"'
+  - '"Now you can sleep without any worries"'
   sentenceDelay: 0.03
 --- !u!1 &216915963
 GameObject:

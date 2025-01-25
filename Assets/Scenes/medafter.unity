@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 3.936798, y: -187.92545}
+  m_AnchoredPosition: {x: 3.9368286, y: -187.92542}
   m_SizeDelta: {x: 51.0585, y: -394.5283}
   m_Pivot: {x: 0.56955975, y: 0.5}
 --- !u!114 &392696
@@ -213,18 +213,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeText: {fileID: 216915966}
   narrativeSentences:
-  - '     "Welcome User"'
-  - '      " You are now in a remote village and it''s dead winter"'
-  - '       "Your wife is sick, you covered her with blankets, yet it''s not working"'
-  - '        "The winter is too much to handle"'
-  - '         "You are cold too"'
-  - '          "There is a fireplace but no logs to lit the fire"'
-  - '           "You need to go out to collect wood"'
-  - '          "But outside looks terrifyingly cold"'
-  - '          "Can you do it?"'
-  - '        "If you dont then both of you are gonna die of cold"'
-  - '       "So go out and collect the logs"'
-  - '       "Save your wife and yourself aswell"'
+  - '"Amazing!!"'
+  - '"you collected all the medicine that''s needed"'
+  - '"After feeding it your wife, she seems to be doing fine"'
+  - '"Fever went down"'
+  - '"Alas, finally you can rest"'
+  - '"Grrrrrr..."'
+  - '"Now you are hungry"'
+  - '"You try to sleep through it, but it doesn''t work"'
+  - '"It''s becoming hard and hard as time passes"'
+  - '"It''s not just you, your wife seems to be hungry too"'
+  - '" Do you have to go out again?"'
+  - '"It seems so"'
+  - '"But you just returned from outside"'
+  - '"Maybe you should have brought both food and medicine together"'
+  - '"Nothing can be done now though"'
+  - '"You should go out to collect food"'
+  - "\"All the best, even I pity\_you\""
   sentenceDelay: 0.03
 --- !u!1 &216915963
 GameObject:
