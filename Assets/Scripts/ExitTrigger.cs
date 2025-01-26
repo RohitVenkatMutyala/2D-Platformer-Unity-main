@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 public class ExitTrigger : MonoBehaviour
 {
     //public Animator anim;
+    public PlaySound playSound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            StartCoroutine("LevelExit");
+            //StartCoroutine("LevelExit");
+             SceneManager.LoadScene(1);
+           
         }
     }
 

@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     private int gemCount = 0;
     private bool isGameOver = false;
     private Vector3 playerPosition;
-
+   public PlaySound playSound;
     //Level Complete
 
     [SerializeField] GameObject levelCompletePanel;
@@ -39,7 +39,7 @@ public class GameManager : MonoBehaviour
     }
 
     private void Start()
-    {
+    {  playSound = GetComponent<PlaySound>();
         UpdateGUI();
         UIManager.instance.fadeFromBlack = true;
         playerPosition = playerController.transform.position;
@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
     public void Death()
     {
         if (!isGameOver)
-        {
+        { 
             // Disable Mobile Controls
             UIManager.instance.DisableMobileControls();
             // Initiate screen fade
@@ -78,10 +78,10 @@ public class GameManager : MonoBehaviour
 
             // Start death coroutine to wait and then respawn the player
             StartCoroutine(DeathCoroutine());
-
+  
             // Update game state
             isGameOver = true;
-
+          
             // Log death message
             Debug.Log("Died");
         }
@@ -110,25 +110,25 @@ public class GameManager : MonoBehaviour
 
 
         levelCompletePanel.SetActive(true);
-        leveCompletePanelTitle.text = "LEVEL COMPLETE";
+        leveCompletePanelTitle.text = "SCENERIO COMPLETED";
 
 
 
-        levelCompleteCoins.text = "COINS COLLECTED: "+ coinCount.ToString() +" / " + totalCoins.ToString();
+        levelCompleteCoins.text = "BOUNTY COLLECTED: "+ coinCount.ToString() +" / " + totalCoins.ToString();
  
     }
    
     public IEnumerator DeathCoroutine()
-    {
+    {  
         yield return new WaitForSeconds(1f);
         playerController.transform.position = playerPosition;
-
+    
         // Wait for 2 seconds
         yield return new WaitForSeconds(1f);
 
         // Check if the game is still over (in case player respawns earlier)
         if (isGameOver)
-        {
+        {   
             SceneManager.LoadScene(1);
 
             

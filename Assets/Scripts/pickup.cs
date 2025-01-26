@@ -14,7 +14,7 @@ public class pickup : MonoBehaviour
         if(pt == pickupType.coin)
         {
             if(collision.gameObject.tag == "Player")
-            {
+            {   
                 GameManager.instance.IncrementCoinCount();
            
                 Instantiate(PickupEffect, transform.position, Quaternion.identity);
@@ -28,7 +28,7 @@ public class pickup : MonoBehaviour
         if (pt == pickupType.gem)
         {
             if (collision.gameObject.tag == "Player")
-            {
+            {   
                 GameManager.instance.IncrementGemCount();
             
                 Instantiate(PickupEffect, transform.position, Quaternion.identity);
