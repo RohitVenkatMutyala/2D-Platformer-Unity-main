@@ -358,8 +358,10 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+
   m_AnchoredPosition: {x: -4.0658875, y: -200.9032}
   m_SizeDelta: {x: 56.9272, y: -407.1198}
+
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586343252
 MonoBehaviour:
@@ -375,6 +377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 0.87058824}
+
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -570,6 +573,7 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 4.8795, y: 12.6069}
   m_SizeDelta: {x: 928.4345, y: 91.4016}
+
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126864204
 MonoBehaviour:
@@ -581,6 +585,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3a0856f3d7cf8d418b80fcc35d89fb7, type: 3}
+
   m_Name: 
   m_EditorClassIdentifier: 
   narrativeText: {fileID: 1126864205}
@@ -754,6 +759,7 @@ MonoBehaviour:
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0.7
+
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -798,6 +804,7 @@ RectTransform:
   - {fileID: 586343251}
   - {fileID: 1244612404}
   - {fileID: 289195785}
+
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1108,6 +1115,7 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 2, y: -3}
   m_SizeDelta: {x: 125.6317, y: 130.5598}
+
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1646305356
 MonoBehaviour:
@@ -1130,6 +1138,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 41fef7a45592fda419afe6a0dfda864c, type: 3}
+
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1162,6 +1171,7 @@ GameObject:
   - component: {fileID: 1782967004}
   - component: {fileID: 1782967005}
   - component: {fileID: 1782967006}
+
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
