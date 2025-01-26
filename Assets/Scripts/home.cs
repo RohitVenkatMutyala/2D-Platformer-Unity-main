@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class game3 : MonoBehaviour
+public class home : MonoBehaviour
 {
-    public void PlayGame(){
-        SceneManager.LoadSceneAsync(3);
+    public void Home(){
+        SceneManager.LoadSceneAsync(4);
     }
 }
