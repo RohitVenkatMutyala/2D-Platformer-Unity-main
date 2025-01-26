@@ -213,20 +213,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeText: {fileID: 216915966}
   narrativeSentences:
-  - "\u201CAfter you come out of the house in search of logs\u201D"
-  - "\u201CBut where can you find logs which can be lit in this weather\""
-  - "\u201CYou come across this person who is meditating in the snow and also fire
-    lit beside him\u201D"
-  - "\u201CYou approach him\""
-  - "You say, \u201CMaster\u201D"
-  - "\u201CThat person opens his eyes and looks at you\u201D"
-  - "\u201CYou ask him about where to get logs to lit fire\u201D"
-  - "\u201CHe answers saying, he can teleport you to a place where you can collect
-    logs\u201D"
-  - "\u201CThe catch is you can only return back after collecting the treasure\""
-  - "\u201Cthe treasure which you know nothing about\""
-  - "\u201CYou hesitate a bit, but you have no other choice, so you accept\u201D"
-  - "\u201CAll the best in finding treasure user, collect as much logs as possible\u201D"
+  - "\u201CWhen you come out, you see the master again\u201D"
+  - "\u201CHe\u2019s still there!!\u201D"
+  - "\u201CYou thought of asking help from him again\u201D"
+  - "\u201COr else how can you find medicines in this place?\u201D"
+  - "\u201CYou say him about your wife and the urgent need of medicine\u201D"
+  - "\u201CMaster smiles\u201D"
+  - "\u201CHe says he will send teleport you again and the rules are same\""
+  - "\u201CYou can collect medicine and get the treasure to come back\u201D"
+  - "\u201CAll the best user, don\u2019t forget about treasure to come back\u201D"
   sentenceDelay: 0.03
 --- !u!1 &216915963
 GameObject:

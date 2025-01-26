@@ -213,20 +213,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   narrativeText: {fileID: 216915966}
   narrativeSentences:
-  - "\u201CAfter you come out of the house in search of logs\u201D"
-  - "\u201CBut where can you find logs which can be lit in this weather\""
-  - "\u201CYou come across this person who is meditating in the snow and also fire
-    lit beside him\u201D"
-  - "\u201CYou approach him\""
-  - "You say, \u201CMaster\u201D"
-  - "\u201CThat person opens his eyes and looks at you\u201D"
-  - "\u201CYou ask him about where to get logs to lit fire\u201D"
-  - "\u201CHe answers saying, he can teleport you to a place where you can collect
-    logs\u201D"
-  - "\u201CThe catch is you can only return back after collecting the treasure\""
-  - "\u201Cthe treasure which you know nothing about\""
-  - "\u201CYou hesitate a bit, but you have no other choice, so you accept\u201D"
-  - "\u201CAll the best in finding treasure user, collect as much logs as possible\u201D"
+  - "\u201CThis time you directly go to find the master\u201D"
+  - "\u201CYou are so convinced that he will be there to help you out\u201D"
+  - "\u201CAnd you right\u201D"
+  - "\u201CHe\u2019s still there all alone, as if waiting for you to ask him for
+    help\u201D"
+  - "\u201CWhen you say him about your need of food he say same rules and smile\u201D"
+  - "\u201CIt feels like you can ask him for anything and he will teleport you to
+    a place which is abundant of it\u201D"
+  - "\u201CMaybe you should try asking him for money or gold too\u201D"
+  - "\u201CBut right now you need food to survive, so pushing all these thoughts
+    aside, you get prepared to teleport\u201D"
+  - "\u201CAll the best user, Get as much food as you can\u201D"
   sentenceDelay: 0.03
 --- !u!1 &216915963
 GameObject:
