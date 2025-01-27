@@ -1,5 +1,5 @@
 ### **How To Play This Game** 
-1.   ** The Default Main branch is newmain  you can download the file form the default newmain branch **
+1.   ** The Default Main branch is mainnew  you can download the file form the default mainnew branch **
 2.  **Install The Zip file and open in the Unity Version 2022.3.55f1.**
 3.  **And then After The Completion of the Loading Then Go to the Scenes and select Scene Name START and Run it then You can play the complete game.**
 
