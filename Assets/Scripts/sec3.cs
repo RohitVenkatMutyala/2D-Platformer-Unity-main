@@ -13,7 +13,7 @@ public class sec3 : MonoBehaviour
         {
             //StartCoroutine("LevelExit");
            
-             SceneManager.LoadScene(8);
+             SceneManager.LoadScene(10);
            
         }
     }

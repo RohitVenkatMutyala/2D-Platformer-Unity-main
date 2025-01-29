@@ -6,39 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 07d404ae2f2e9404ab61c78efb374629
-  - enabled: 1
-    path: Assets/Scenes/Level.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
-  - enabled: 1
-    path: Assets/Scenes/Level 2.unity
-    guid: 33834770e2c818f4cb1c73a7b61137cb
-  - enabled: 1
-    path: Assets/Scenes/Level 3.unity
-    guid: 8a88ca8374f2c5a42b398918d7ea9db4
-  - enabled: 1
     path: Assets/Scenes/start.unity
     guid: b50b33cd5e3dc26479cdd67fa80b33cd
   - enabled: 1
     path: Assets/Scenes/logs.unity
     guid: 11fdcff78af34d54a856e9153915de3e
   - enabled: 1
-    path: Assets/Scenes/logsend.unity
-    guid: 5a2c96e61c6954b428a91e57e9cf71c5
-  - enabled: 1
-    path: Assets/Scenes/medafter.unity
-    guid: 360659afe091d9442a43bb22ab105664
-  - enabled: 1
-    path: Assets/Scenes/foodafter.unity
-    guid: 2fb968684b46ce145b7e3f61a6a5434e
-  - enabled: 1
     path: Assets/Scenes/master1.unity
     guid: 506eacd84b65dd145a87619ecdfbfc54
+  - enabled: 1
+    path: Assets/Scenes/Level.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/logsend.unity
+    guid: 5a2c96e61c6954b428a91e57e9cf71c5
   - enabled: 1
     path: Assets/Scenes/master2.unity
     guid: f7d4d387a7d10194e8b33a171267cc8f
   - enabled: 1
+    path: Assets/Scenes/Level 2.unity
+    guid: 33834770e2c818f4cb1c73a7b61137cb
+  - enabled: 1
+    path: Assets/Scenes/medafter.unity
+    guid: 360659afe091d9442a43bb22ab105664
+  - enabled: 1
     path: Assets/Scenes/master3.unity
     guid: 8d73bc2fe4d24234cb5d3096d6c911c8
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 8a88ca8374f2c5a42b398918d7ea9db4
+  - enabled: 1
+    path: Assets/Scenes/foodafter.unity
+    guid: 2fb968684b46ce145b7e3f61a6a5434e
   m_configObjects: {}

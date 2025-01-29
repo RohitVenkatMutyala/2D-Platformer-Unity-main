@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class mgame2 : MonoBehaviour
 {
     public void PlayGame(){
-        SceneManager.LoadSceneAsync(2);
+        SceneManager.LoadSceneAsync(6);
     }
 }

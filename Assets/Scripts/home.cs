@@ -6,6 +6,6 @@ using UnityEngine.SceneManagement;
 public class home : MonoBehaviour
 {
     public void Home(){
-        SceneManager.LoadSceneAsync(4);
+        SceneManager.LoadSceneAsync(0);
     }
 }
